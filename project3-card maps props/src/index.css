@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+}
+nav{
+  padding: 20px;
+  background-color: #F55A5A;
+  text-align: center;
+}
+.nav-logo{
+  vertical-align: middle;
+  
+  
+}
+.nav-text{
+  color: white;
+  padding-left: 7px;
+  font-size: 16px;
+}
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+
+}
+.card-img{
+  width: 125px;
+  height: 168px;
+  
+}
+.container{
+  width: 470px;
+}
+.map{
+  padding-left: 12px;
+  text-decoration: underline;
+}
+.map:hover{
+  cursor: pointer;
+
+}

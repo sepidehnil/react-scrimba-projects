@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+}
+
+nav{
+  background-color: #21222A;
+  display: flex;
+  align-items: center;
+  padding: 30px 27px;
+  height: 60px;
+  
+}
+nav.light{
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.nav-logo{
+  padding-right: 7px;
+  
+}
+.nav-title{
+  color: #61DAFB;
+  vertical-align: middle;
+  font-size: 22.25px;
+  font-weight: 700;
+  line-height: 26.93px;
+  margin-right: auto;
+}
+.toggler{
+  display: flex;
+  align-items: center;
+
+}
+.light-toggler{
+  color: #918E9B;
+}
+nav.light .light-toggler{
+  color: black;
+}
+.toggler--slider{
+  width: 24.55px;
+  height: 13.09px;
+  border-radius: 11.1898px;
+  background-color: white;
+  cursor: pointer;
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+  justify-content: flex-end;
+
+}
+nav.light .toggler--slider{
+  background-color: black;
+  border-color: white;
+  justify-content: flex-start;
+
+}
+.toggler--slider--circle{
+  width: 11.45px;
+  height: 11.45px;
+  background-color: #222222;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+nav.light .toggler--slider--circle{
+  background-color: white;
+}
+.dark-toggler{
+  color: #FFFFFF;
+}
+nav.light .dark-toggler{
+  color: #D5D4D8;
+}
+
+
+main{
+  padding: 57px 27px;
+  height: 401px;
+  background-color: #282D35;
+  background-image: url("./reactjs-icon 2.png");
+  background-repeat: no-repeat;
+  background-position-x: 100% ;
+  background-position-y: 50%;
+  color: white;
+
+}
+main.light{
+  background-image: url('./Group (1).png');
+  background-color: white;
+  color: black;
+}
+.h1{
+  color: white;
+}
+ul{
+  padding-left: 74px;
+  list-style: none;
+}
+ul > li{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+ul > li:before {
+  color: #61DAFB;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+}

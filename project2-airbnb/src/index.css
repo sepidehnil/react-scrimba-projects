@@ -1,0 +1,92 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+.bold {
+  font-weight: bold;
+}
+.gray {
+  color: #918E9B;
+}
+nav{
+  box-shadow: 0px 2.98px 7.46px 0px lightgray;
+  height: 70px;
+
+  
+}
+.nav-logo{
+  width: 82.02px;
+  height: 25.35px;
+  padding: 22px 30px;
+
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero-logo{
+  width: 500.91px;
+  height: 345px;
+  padding-top: 16px;
+  align-self: center;
+  
+
+}
+h1{
+  padding: 0px 36px;
+  font-size: 50px;
+  margin-bottom: 16px;
+  
+}
+
+p{
+  width: 370px;
+  padding-left: 36px;
+  margin-top: 0;
+  font-size: 20px;
+  
+}
+.card{   
+  float: left;     
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.card-badges{
+  position: absolute;
+  padding: 5px 7px;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color: white;
+  left: 115px;
+  top: 6px;
+
+ 
+
+}
+.card-logo{
+  border-radius: 9px;
+  Width:230px;
+  Height:300px;
+}
+.card--stats {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.star-logo{
+  width: 17px;
+  height: 17px;
+  padding-left: 36px;
+
+}
+.para{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+
