@@ -1,9 +1,11 @@
 body{
   background-color: #23252C;
   box-sizing: border-box;
-  Width: 550px;
-  Height: 868px;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
 }
 
 .main{
