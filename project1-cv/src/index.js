@@ -20,9 +20,10 @@ function App(){
     </div>
     <div className='center'>
     <h2 className='h4'>About</h2>
-    <div className='p1'>I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</div>
+    <div className='p1'>I recently completed my bachelor degree in electrical-power engineering at Kashan University, since I was highly interested in programming I started learning web programming by my self. I took several courses in English and I obtained several Coursera course certificates.
+Currently, I am practicing and and improving my web development skills.</div>
     <h2 className='h5'>interest</h2>
-    <div className='p2'>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</div>
+    <div className='p2'>Mountaineering, rock Climbing, Nature and Outdoors enthusiast</div>
     </div>
     </div>
 
